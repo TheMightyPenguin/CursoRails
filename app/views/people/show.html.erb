@@ -1,0 +1,43 @@
+<h1>Datos de la Persona</h1>
+
+<p>
+  <b>Nombre: </b>
+  <%= @person.nombre %>
+</p>
+<p>
+  <b>Apellido: </b>
+  <%= @person.apellido %>
+</p>
+<p>
+  <b>Cedula: </b>
+  <%= @person.ci %>
+</p>
+
+<h3>Direcciones</h3>
+
+<%= flash[:notice] %>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Line1</th>
+      <th>Line2</th>
+      <th>State</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @person.addresses.each do |address| %>
+      <tr>
+        <td><%= address.line1 %></td>
+        <td><%= address.line2 %></td>
+        <td><%= address.state %></td>
+        <td>
+          <%= link_to "Eliminar", person_address_path(@person, address), method: :delete, data: { confirm: "Estas seguro?" } %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</br>
+<%= link_to "Regresar", people_path %>

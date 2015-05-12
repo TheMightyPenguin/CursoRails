@@ -1,0 +1,237 @@
+  [1m[36m (134.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (132.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePeople (20150424003408)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /home/maitzeth/Documents/RailsAbril2015/db/migrate/20150424003408_create_people.rb:7)
+  [1m[35m (0.7ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar, "apellido" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150424003408"]]
+  [1m[35m (114.6ms)[0m  commit transaction
+Migrating to AddCiToPeople (20150424004842)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "people" ADD "ci" integer
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150424004842"]]
+  [1m[35m (127.7ms)[0m  commit transaction
+Migrating to CreateAddresses (20150429010119)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "addresses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "line1" varchar, "line2" varchar, "state" varchar, "person_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150429010119"]]
+  [1m[35m (151.2ms)[0m  commit transaction
+Migrating to CreateProfiles (20150501000431)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "profiles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "twitter_url" varchar, "github_url" varchar, "person_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_profiles_on_person_id" ON "profiles" ("person_id")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150501000431"]]
+  [1m[36m (167.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCars (20150501002104)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "cars" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "color" varchar, "brand" varchar, "plate" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150501002104"]]
+  [1m[36m (162.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateJoinTableCarsPeople (20150501004539)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "cars_people" ("car_id" integer NOT NULL, "person_id" integer NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150501004539"]]
+  [1m[36m (160.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_profiles_on_person_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_profiles_on_person_id' AND type='index'
+[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people"  ORDER BY "people"."id" DESC LIMIT 1[0m
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT  "people".* FROM "people"  ORDER BY "people"."id" DESC LIMIT 1[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people"  ORDER BY "people"."id" DESC LIMIT 1[0m
+  [1m[35mPerson Load (0.7ms)[0m  SELECT  "people".* FROM "people"  ORDER BY "people"."id" DESC LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-12 17:58:02 -0430
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.3ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 2066ms (Views: 2040.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 17:58:04 -0430
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.3ms)[0m  SELECT  1 AS one FROM "people" WHERE "people"."ci" = 21513298 LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "people" ("nombre", "apellido", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nombre", "ANDRE"], ["apellido", "VIELMA"], ["ci", 21513298], ["created_at", "2015-05-12 22:29:29.706742"], ["updated_at", "2015-05-12 22:29:29.706742"]]
+  [1m[35m (132.0ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.6ms)[0m  SELECT  1 AS one FROM "people" WHERE "people"."ci" = 21513298 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-12 18:15:46 -0430
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.3ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 531ms (Views: 504.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 18:15:50 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAddress Load (0.4ms)[0m  SELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (83.8ms)
+Completed 200 OK in 165ms (Views: 146.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 18:15:52 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.4ms)
+  [1m[36mPerson Load (2.8ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mPerson Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "people" WHERE "people"."ci" = 25061273 LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "people" ("nombre", "apellido", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["nombre", "NATASHA"], ["apellido", "VILLAMIZAR"], ["ci", 25061273], ["created_at", "2015-05-12 22:46:40.204947"], ["updated_at", "2015-05-12 22:46:40.204947"]]
+  [1m[36m (151.3ms)[0m  [1mcommit transaction[0m
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT  "people".* FROM "people"  ORDER BY "people"."id" DESC LIMIT 1[0m
+  [1m[35mPerson Load (0.7ms)[0m  SELECT  "people".* FROM "people"  ORDER BY "people"."id" DESC LIMIT 1
+  [1m[36mAddress Load (0.4ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 2]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "addresses" ("person_id", "line1", "line2", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["person_id", 2], ["line1", "Direccion1"], ["line2", "Direccion2"], ["state", "Caracas"], ["created_at", "2015-05-12 22:49:20.354209"], ["updated_at", "2015-05-12 22:49:20.354209"]]
+  [1m[35m (170.6ms)[0m  commit transaction
+  [1m[36mPerson Load (0.6ms)[0m  [1mSELECT  "people".* FROM "people"  ORDER BY "people"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "addresses" ("person_id", "line1", "line2", "state", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["person_id", 1], ["line1", "ASDASD"], ["line2", "ASDASD2222"], ["state", "Miranda"], ["created_at", "2015-05-12 22:50:06.069330"], ["updated_at", "2015-05-12 22:50:06.069330"]]
+  [1m[35m (149.0ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-12 18:20:17 -0430
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.4ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 502ms (Views: 474.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 18:20:20 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAddress Load (0.4ms)[0m  SELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (52.4ms)
+Completed 200 OK in 182ms (Views: 164.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 18:20:23 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.5ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/2" for 127.0.0.1 at 2015-05-12 18:20:26 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mAddress Load (0.2ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 2]]
+  Rendered people/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 18:20:29 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAddress Load (0.2ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 18:32:05 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered people/show.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/home/maitzeth/Documents/RailsAbril2015/app/views/people/show.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+...: { confirm: "Estas seguro?" }" );@output_buffer.safe_append...
+...                               ^
+/home/maitzeth/Documents/RailsAbril2015/app/views/people/show.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+...ffer.append=( link_to "Regresar", people_path );@output_buff...
+...                               ^
+/home/maitzeth/Documents/RailsAbril2015/app/views/people/show.html.erb:43: unterminated string meets end of file
+/home/maitzeth/Documents/RailsAbril2015/app/views/people/show.html.erb:43: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/people/show.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/people/show.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+  app/views/people/show.html.erb:43: unterminated string meets end of file
+  app/views/people/show.html.erb:43: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (34.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (74.0ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAddress Load (0.2ms)[0m  SELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 82ms (Views: 80.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430

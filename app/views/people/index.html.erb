@@ -1,0 +1,21 @@
+<table border="1">
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Nombre</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @people.each_with_index do |p, index| %>
+    <% index = index + 1 %>
+      <tr>
+        <td><%= index %></td>
+        <td><%= p.full_name %></td>
+        <td>
+          <%= link_to "Ver", person_path(p) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
