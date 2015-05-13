@@ -235,3 +235,2288 @@ Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934
 
 
 Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 18:32:45 -0430
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 18:41:41 -0430
+
+LoadError (cannot load such file -- /home/maitzeth/Documents/RailsAbril2015/config/routes.rb):
+  activesupport (4.2.0) lib/active_support/dependencies.rb:268:in `load'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:268:in `block in load'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:240:in `load_dependency'
+  activesupport (4.2.0) lib/active_support/dependencies.rb:268:in `load'
+  railties (4.2.0) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.2.0) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.2.0) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.2.0) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.2.0) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.2.0) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.2.0) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.2.0) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.2.0) lib/rails/application/finisher.rb:81:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:441:in `instance_exec'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:441:in `block in make_lambda'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:189:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:189:in `block in simple'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:190:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:190:in `block in simple'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:190:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:190:in `block in simple'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_prepare_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (62.9ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 18:42:18 -0430
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.4ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAddress Load (0.4ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 1220ms (Views: 1164.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 18:42:20 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:02:25 -0430
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.4ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 494ms (Views: 468.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:02:26 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:06:33 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:06:33 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:06:33 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:06:33 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:34 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:34 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:34 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:34 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:34 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.4ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 99ms (Views: 98.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:06:40 -0430
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:06:42 -0430
+
+AbstractController::ActionNotFound (The action 'new' could not be found for PeopleController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (67.9ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:17:21 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (96.3ms)
+Completed 200 OK in 178ms (Views: 154.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:19:54 -0430
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:24:54 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 83ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:24:55 -0430
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:26:04 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:26:04 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:26:05 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:26:05 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:26:05 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:26:05 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:26:05 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:26:05 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:26:05 -0430
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 72ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:27:50 -0430
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:28:11 -0430
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:28:31 -0430
+
+AbstractController::ActionNotFound (The action 'create' could not be found for PeopleController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (63.0ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:29:15 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vXjJImaL6DwO+sfrZhzV8+TvHXiCAF/c+9KTvnoq+2FJfGQQ6DuFdly1BJ60PEuMl6ssylDHum51fwr1BrwyAA==", "person"=>{"nombre"=>"", "apellido"=>"", "ci"=>""}, "commit"=>"Agregar Persona"}
+Completed 500 Internal Server Error in 10ms
+
+ActionView::MissingTemplate (Missing template people/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/maitzeth/Documents/CursoRails/app/views"
+):
+  actionview (4.2.0) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.0) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (56.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (32.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (65.5ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:31:02 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vXjJImaL6DwO+sfrZhzV8+TvHXiCAF/c+9KTvnoq+2FJfGQQ6DuFdly1BJ60PEuMl6ssylDHum51fwr1BrwyAA==", "person"=>{"nombre"=>"", "apellido"=>"", "ci"=>""}, "commit"=>"Agregar Persona"}
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template people/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/maitzeth/Documents/CursoRails/app/views"
+):
+  actionview (4.2.0) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.0) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (54.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (63.9ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:34:44 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 104ms (Views: 79.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 19:34:45 -0430
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:34:54 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C3smk9dmC6t+UIEf1ViiWC9vV0afsvO3/y1x26AONwL/f4uhWdZm4SwfQmoHeDwnXCtm9E11FgVxgOiQ3Jj+Yw==", "person"=>{"nombre"=>"Jose", "apellido"=>"Joooo", "ci"=>"21323123"}, "commit"=>"Agregar Persona"}
+Completed 500 Internal Server Error in 3ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/people_controller.rb:16:in `create'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (32.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (64.6ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:41:24 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C3smk9dmC6t+UIEf1ViiWC9vV0afsvO3/y1x26AONwL/f4uhWdZm4SwfQmoHeDwnXCtm9E11FgVxgOiQ3Jj+Yw==", "person"=>{"nombre"=>"ASDASD", "apellido"=>"Joooo", "ci"=>"21323123"}, "nodeberia"=>"malo", "commit"=>"Agregar Persona"}
+Completed 500 Internal Server Error in 2ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/people_controller.rb:16:in `create'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (33.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (66.6ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:54:06 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C3smk9dmC6t+UIEf1ViiWC9vV0afsvO3/y1x26AONwL/f4uhWdZm4SwfQmoHeDwnXCtm9E11FgVxgOiQ3Jj+Yw==", "person"=>{"nombre"=>"ASDASD", "apellido"=>"Joooo", "ci"=>"21323123"}, "commit"=>"Agregar Persona"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.3ms)[0m  SELECT  1 AS one FROM "people" WHERE "people"."ci" = 21323123 LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "people" ("apellido", "nombre", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["apellido", "JOOOO"], ["nombre", "ASDASD"], ["ci", 21323123], ["created_at", "2015-05-13 00:24:06.828876"], ["updated_at", "2015-05-13 00:24:06.828876"]]
+  [1m[35m (142.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/people
+Completed 302 Found in 202ms (ActiveRecord: 145.1ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:54:06 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/3" for 127.0.0.1 at 2015-05-12 19:54:21 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPerson Load (0.5ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mAddress Load (0.3ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 3]]
+  Rendered people/show.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 100ms (Views: 87.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:54:24 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:55:07 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:55:21 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ri3QDbRTbBXoBK7ZcBVRx+8Xrd9m9stGVrxB2/ke3wiyKX0/OuMBX7pLbayiNc+4nFOcbbQxLvTYEdiQhYgWaQ==", "person"=>{"nombre"=>"Andre", "apellido"=>"Vielma", "ci"=>"21513298"}, "commit"=>"Agregar Persona"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.6ms)[0m  SELECT  1 AS one FROM "people" WHERE "people"."ci" = 21513298 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered people/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 90ms (Views: 77.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:55:39 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jNtSoJUlPvSHUTWeDo24Clh+8QIAQcLDPuE80vsAjlZ43/+SG5VTvtUe9uvcrSZ1KzrAsNKGJ3GwTKWZh5ZHNw==", "person"=>{"nombre"=>"Andre", "apellido"=>"Vielma", "ci"=>"21513299"}, "commit"=>"Agregar Persona"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mPerson Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "people" WHERE "people"."ci" = 21513299 LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("nombre", "apellido", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["nombre", "ANDRE"], ["apellido", "VIELMA"], ["ci", 21513299], ["created_at", "2015-05-13 00:25:39.746105"], ["updated_at", "2015-05-13 00:25:39.746105"]]
+  [1m[36m (304.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 316ms (ActiveRecord: 305.1ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:55:40 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.4ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/4" for 127.0.0.1 at 2015-05-12 19:55:42 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mAddress Load (0.2ms)[0m  SELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?  [["person_id", 4]]
+  Rendered people/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 62ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:57:23 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:57:36 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LwBqy9UbK6h4TSRFDC2Kb5MjQTXvnlDtsvKnOzGlMKPbBMf5W6tG4ioC5zDeDRQQ4Gdwhz1ZtV88Xz5wTTP5wg==", "person"=>{"nombre"=>"Gladys", "apellido"=>"Gil", "ci"=>"0"}, "commit"=>"Agregar Persona"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.3ms)[0m  SELECT  1 AS one FROM "people" WHERE "people"."ci" = 0 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  Rendered people/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 84ms (Views: 73.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 19:57:46 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/WGWratF1hq/FRgGBavpGGfKnXIKwoox+n5C2V4gsVoJZTufJfW7UO1a23PXi3dnFI6swNgFb4N009uSIrZ4Ow==", "person"=>{"nombre"=>"Gladys", "apellido"=>"Gil", "ci"=>"3730872"}, "commit"=>"Agregar Persona"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mPerson Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "people" WHERE "people"."ci" = 3730872 LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "people" ("nombre", "apellido", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["nombre", "GLADYS"], ["apellido", "GIL"], ["ci", 3730872], ["created_at", "2015-05-13 00:27:46.065099"], ["updated_at", "2015-05-13 00:27:46.065099"]]
+  [1m[36m (173.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 184ms (ActiveRecord: 174.3ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:57:46 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/2" for 127.0.0.1 at 2015-05-12 19:57:49 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAddress Load (0.3ms)[0m  SELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?  [["person_id", 2]]
+  Rendered people/show.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:57:51 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.5ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 19:57:55 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.3ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAddress Load (0.2ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:57:56 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.7ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 19:57:57 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAddress Load (0.2ms)[0m  SELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 19:58:05 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.6ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 19:58:07 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 20:12:20 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lV8C1Kok0M6k/NJfVu5jm9jh+LetDhueDjPAUT+WDTxhW6/mJJS9hPazESqEzv3kq6XJBX/J/iyAnlkaQwDEXQ==", "person"=>{"nombre"=>"Patricia", "apellido"=>"Vielma", "ci"=>"21513266"}, "created_at"=>"2021-01-01", "commit"=>"Agregar Persona"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mPerson Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "people" WHERE "people"."ci" = 21513266 LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "people" ("nombre", "apellido", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["nombre", "PATRICIA"], ["apellido", "VIELMA"], ["ci", 21513266], ["created_at", "2015-05-13 00:42:20.531110"], ["updated_at", "2015-05-13 00:42:20.531110"]]
+  [1m[36m (424.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 435ms (ActiveRecord: 425.2ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:12:20 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.8ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:13:23 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 20:15:38 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kfZhFBun5+rn1R1FdVmj1W57BxOmU+LEalfDOOkSt2Bl8swmlReKoLWa3jCneT2qHT82oXSUB3bk+lpzlYR+AQ==", "person"=>{"nombre"=>"Jorge", "apellido"=>"Vielma", "ci"=>"3566883", "created_at"=>"2021-01-01"}, "commit"=>"Agregar Persona"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.3ms)[0m  SELECT  1 AS one FROM "people" WHERE "people"."ci" = 3566883 LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "people" ("nombre", "apellido", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nombre", "JORGE"], ["apellido", "VIELMA"], ["ci", 3566883], ["created_at", "2021-01-01 00:00:00.000000"], ["updated_at", "2015-05-13 00:45:38.977498"]]
+  [1m[35m (154.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/people
+Completed 302 Found in 166ms (ActiveRecord: 155.0ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:15:39 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.8ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 96ms (Views: 78.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:18:36 -0430
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:18:38 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/people" for 127.0.0.1 at 2015-05-12 20:19:47 -0430
+Processing by PeopleController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zIf+Qb0w0RwnnC4YOqmvASNJArW3G3nMG6WTyHQ1oBk4g1NzM4C8VnXT7W3oiTF+UA0zB2XcnH6VCAqDCKNpeA==", "person"=>{"nombre"=>"Angela", "apellido"=>"Vielma", "ci"=>"1788666", "created_at"=>"2021-01-01"}, "commit"=>"Agregar Persona"}
+Unpermitted parameter: created_at
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.4ms)[0m  SELECT  1 AS one FROM "people" WHERE "people"."ci" = 1788666 LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "people" ("nombre", "apellido", "ci", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nombre", "ANGELA"], ["apellido", "VIELMA"], ["ci", 1788666], ["created_at", "2015-05-13 00:49:47.193440"], ["updated_at", "2015-05-13 00:49:47.193440"]]
+  [1m[35m (148.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/people
+Completed 302 Found in 166ms (ActiveRecord: 149.2ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:19:47 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.5ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/8" for 127.0.0.1 at 2015-05-12 20:21:01 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mPerson Load (0.5ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mAddress Load (0.3ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 8]]
+  Rendered people/show.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 70ms (Views: 66.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:21:06 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:23:39 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:23:40 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:11 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (19.2ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 86ms (Views: 66.4ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:24:25 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:26:23 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.5ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:26:25 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 64ms (Views: 63.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:27:36 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.8ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (17.2ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"people"} missing required keys: [:id]):
+    16:           <%= link_to "Ver", person_path(p) %>
+    17:         </td>
+    18:         <td>
+    19:           <%= link_to "Editar", edit_person_path %>
+    20:         </td>
+    21:       </tr>
+    22:     <% end %>
+  app/views/people/index.html.erb:19:in `block in _app_views_people_index_html_erb___1302477735045137054_69868160203000'
+  app/views/people/index.html.erb:10:in `_app_views_people_index_html_erb___1302477735045137054_69868160203000'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (32.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (66.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:28:27 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.7ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"people"} missing required keys: [:id]):
+    16:           <%= link_to "Ver", person_path(p) %>
+    17:         </td>
+    18:         <td>
+    19:           <%= link_to "Editar", edit_person_path %>
+    20:         </td>
+    21:       </tr>
+    22:     <% end %>
+  app/views/people/index.html.erb:19:in `block in _app_views_people_index_html_erb___1302477735045137054_69868160203000'
+  app/views/people/index.html.erb:10:in `_app_views_people_index_html_erb___1302477735045137054_69868160203000'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (32.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (64.5ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:29:34 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.6ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:29:35 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:29:37 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.5ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template people/edit, application/edit with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/maitzeth/Documents/CursoRails/app/views"
+):
+  actionview (4.2.0) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.0) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/maitzeth/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (57.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (33.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (66.0ms)
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:31:01 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 131ms (Views: 83.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:02 -0430
+
+
+Started GET "/people/2/edit" for 127.0.0.1 at 2015-05-12 20:31:08 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered people/edit.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/2/edit" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered people/edit.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 108ms (Views: 80.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:31:41 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:31:46 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 81ms (Views: 79.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:32:53 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 132ms (Views: 84.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/people/7/edit" for 127.0.0.1 at 2015-05-12 20:34:49 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPerson Load (0.4ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered people/edit.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 111ms (Views: 82.6ms | ActiveRecord: 1.6ms)
+
+
+Started PATCH "/people/7" for 127.0.0.1 at 2015-05-12 20:34:55 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bZ8RMwfg4hZ0r6/rvtvOExKJjtgYTayTCL0ZNNgJ7kaZm7wBiVCPXCbgbJ5s+1BsYc2/asqKSSGGEIB/pJ8nJw==", "person"=>{"nombre"=>"JORGEE", "apellido"=>"VIELMA", "ci"=>"3566883"}, "commit"=>"Editar Persona", "id"=>"7"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/people_controller.rb:30:in `update'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (34.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (69.5ms)
+
+
+Started PATCH "/people/7" for 127.0.0.1 at 2015-05-12 20:35:35 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bZ8RMwfg4hZ0r6/rvtvOExKJjtgYTayTCL0ZNNgJ7kaZm7wBiVCPXCbgbJ5s+1BsYc2/asqKSSGGEIB/pJ8nJw==", "person"=>{"nombre"=>"JORGEE", "apellido"=>"VIELMA", "ci"=>"3566883"}, "commit"=>"Editar Persona", "id"=>"7"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/people_controller.rb:30:in `update'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (32.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (65.7ms)
+
+
+Started PATCH "/people/7" for 127.0.0.1 at 2015-05-12 20:37:06 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bZ8RMwfg4hZ0r6/rvtvOExKJjtgYTayTCL0ZNNgJ7kaZm7wBiVCPXCbgbJ5s+1BsYc2/asqKSSGGEIB/pJ8nJw==", "person"=>{"nombre"=>"JORGEE", "apellido"=>"VIELMA", "ci"=>"3566883"}, "commit"=>"Editar Persona", "id"=>"7"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `update!' for nil:NilClass):
+  app/controllers/people_controller.rb:30:in `update'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (34.4ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (68.6ms)
+
+
+Started PATCH "/people/7" for 127.0.0.1 at 2015-05-12 20:38:29 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bZ8RMwfg4hZ0r6/rvtvOExKJjtgYTayTCL0ZNNgJ7kaZm7wBiVCPXCbgbJ5s+1BsYc2/asqKSSGGEIB/pJ8nJw==", "person"=>{"nombre"=>"JORGEE", "apellido"=>"VIELMA", "ci"=>"3566883"}, "commit"=>"Editar Persona", "id"=>"7"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/people_controller.rb:30:in `update'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (33.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (67.5ms)
+
+
+Started PATCH "/people/7" for 127.0.0.1 at 2015-05-12 20:38:48 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bZ8RMwfg4hZ0r6/rvtvOExKJjtgYTayTCL0ZNNgJ7kaZm7wBiVCPXCbgbJ5s+1BsYc2/asqKSSGGEIB/pJ8nJw==", "person"=>{"nombre"=>"JORGEE", "apellido"=>"VIELMA", "ci"=>"3566883"}, "commit"=>"Editar Persona", "id"=>"7"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/people_controller.rb:30:in `update'
+
+
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.2ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (39.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/maitzeth/.rvm/gems/ruby-2.2.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (78.5ms)
+
+
+Started PATCH "/people/7" for 127.0.0.1 at 2015-05-12 20:39:46 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bZ8RMwfg4hZ0r6/rvtvOExKJjtgYTayTCL0ZNNgJ7kaZm7wBiVCPXCbgbJ5s+1BsYc2/asqKSSGGEIB/pJ8nJw==", "person"=>{"nombre"=>"JORGEE", "apellido"=>"VIELMA", "ci"=>"3566883"}, "commit"=>"Editar Persona", "id"=>"7"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mPerson Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "people" WHERE ("people"."ci" = 3566883 AND "people"."id" != 7) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "people" SET "nombre" = ?, "updated_at" = ? WHERE "people"."id" = ?  [["nombre", "JORGEE"], ["updated_at", "2015-05-13 01:09:46.603117"], ["id", 7]]
+  [1m[36m (155.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 204ms (ActiveRecord: 157.6ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:39:46 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.6ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:39:47 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:39:49 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/people/3/edit" for 127.0.0.1 at 2015-05-12 20:41:56 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPerson Load (0.5ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered people/edit.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 112ms (Views: 83.5ms | ActiveRecord: 1.7ms)
+
+
+Started PATCH "/people/3" for 127.0.0.1 at 2015-05-12 20:42:03 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CSzV3WboP1OrWuJ4Q1c6Elz/jjE88aJgC3WHdBu1b6D9KHjv6FhSGfkVIQ2Rd6RtL7u/g+42R9KF2B4/ZyOmwQ==", "person"=>{"nombre"=>"ASDASD", "apellido"=>"JOOOO", "ci"=>"21323128"}, "commit"=>"Editar Persona", "id"=>"3"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mPerson Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "people" WHERE ("people"."ci" = 21323128 AND "people"."id" != 3) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "people" SET "ci" = ?, "updated_at" = ? WHERE "people"."id" = ?  [["ci", 21323128], ["updated_at", "2015-05-13 01:12:03.059281"], ["id", 3]]
+  [1m[36m (168.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 186ms (ActiveRecord: 169.6ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:42:03 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:42:07 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 105ms (Views: 102.9ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/people/1" for 127.0.0.1 at 2015-05-12 20:42:14 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oxQ2wEDXW4+tQdI4aQM3V3FHmdtntmiIZJvcfmYDbaFXEJvyzmc2xf8OEU27I6koAgOoabVxjTrqNkU1GpWkwA==", "person"=>{"nombre"=>"ANDRE", "apellido"=>"VIELMAAAA", "ci"=>"21513298"}, "commit"=>"Editar Persona", "id"=>"1"}
+  [1m[35mPerson Load (0.3ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.4ms)[0m  SELECT  1 AS one FROM "people" WHERE ("people"."ci" = 21513298 AND "people"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "people" SET "apellido" = ?, "updated_at" = ? WHERE "people"."id" = ?[0m  [["apellido", "VIELMAAAA"], ["updated_at", "2015-05-13 01:12:14.653023"], ["id", 1]]
+  [1m[35m (167.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/people
+Completed 302 Found in 181ms (ActiveRecord: 168.6ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:42:14 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:42:49 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.8ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 96ms (Views: 79.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:42:49 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:42:49 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:42:50 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:42:50 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:42:50 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:42:50 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:42:50 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:42:50 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:42:51 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.7ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 81ms (Views: 77.1ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/people/1" for 127.0.0.1 at 2015-05-12 20:42:53 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdjnbBY5Ny4CaLmd+0cdlMhJ9Lt2oAAenjmQaagq8dWp3EpemIlaZFAneugpZ4Pruw3FCaRn5awQlAki1Lw4tA==", "person"=>{"nombre"=>"ANDREEE", "apellido"=>"VIELMAAAA", "ci"=>"21513298"}, "commit"=>"Editar Persona", "id"=>"1"}
+  [1m[35mPerson Load (0.3ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mPerson Exists (0.4ms)[0m  SELECT  1 AS one FROM "people" WHERE ("people"."ci" = 21513298 AND "people"."id" != 1) LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "people" SET "nombre" = ?, "updated_at" = ? WHERE "people"."id" = ?[0m  [["nombre", "ANDREEE"], ["updated_at", "2015-05-13 01:12:53.702566"], ["id", 1]]
+  [1m[35m (164.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/people
+Completed 302 Found in 183ms (ActiveRecord: 165.5ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:42:53 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:43:04 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.2ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/people/1" for 127.0.0.1 at 2015-05-12 20:43:39 -0430
+Processing by PeopleController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5hBS6TEMkqHxunRawWHRXnCkCiFBEa2UgPp4VZ88uRcSFP/bv7z/66P1ty8TQU8hA+A7k5PWSCYOV+Ee46pwdg==", "person"=>{"nombre"=>"ANDREEE", "apellido"=>"VIELMAAAA", "ci"=>"21513666"}, "commit"=>"Editar Persona", "id"=>"1"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mPerson Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "people" WHERE ("people"."ci" = 21513666 AND "people"."id" != 1) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "people" SET "ci" = ?, "updated_at" = ? WHERE "people"."id" = ?  [["ci", 21513666], ["updated_at", "2015-05-13 01:13:39.678965"], ["id", 1]]
+  [1m[36m (159.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/people
+Completed 302 Found in 172ms (ActiveRecord: 160.8ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:43:39 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:43:41 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people/4" for 127.0.0.1 at 2015-05-12 20:43:46 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPerson Load (0.3ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mAddress Load (0.4ms)[0m  [1mSELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?[0m  [["person_id", 4]]
+  Rendered people/show.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:43:48 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:44:02 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:44:16 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:17 -0430
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:24 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:44:25 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.9ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/people/3/edit" for 127.0.0.1 at 2015-05-12 20:44:27 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPerson Load (0.3ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered people/edit.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 78ms (Views: 76.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/people/3/edit" for 127.0.0.1 at 2015-05-12 20:44:37 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered people/edit.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 81ms (Views: 79.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:44:38 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:44:40 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.6ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:47:42 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.8ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 90ms (Views: 73.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:47:43 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.4ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered people/edit.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 82ms (Views: 78.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/1" for 127.0.0.1 at 2015-05-12 20:47:46 -0430
+Processing by PeopleController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mAddress Load (0.4ms)[0m  SELECT "addresses".* FROM "addresses" WHERE "addresses"."person_id" = ?  [["person_id", 1]]
+  Rendered people/show.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 82ms (Views: 79.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:47:48 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 76ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:50:57 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:50:59 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.3ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered people/_form.html.erb (19.4ms)
+  Rendered people/edit.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:51:02 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.5ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:51:03 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (17.3ms)
+  Rendered people/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:51:07 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.4ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:51:09 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered people/_form.html.erb (17.5ms)
+  Rendered people/edit.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:51:10 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.4ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:53:43 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.8ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 92ms (Views: 75.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:53:44 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.4ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered people/_form.html.erb (20.1ms)
+  Rendered people/edit.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 77ms (Views: 73.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:53:47 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:53:49 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (18.0ms)
+  Rendered people/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:53:52 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:54:16 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.8ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 92ms (Views: 76.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:54:17 -0430
+
+
+Started GET "/people/1/edit" for 127.0.0.1 at 2015-05-12 20:54:18 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPerson Load (0.4ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered people/_form.html.erb (18.8ms)
+  Rendered people/edit.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:54:19 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:54:21 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (18.8ms)
+  Rendered people/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:55:24 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (44.0ms)
+  Rendered people/new.html.erb within layouts/application (45.2ms)
+Completed 200 OK in 134ms (Views: 108.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/addresses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/assets/people.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/assets/people.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/assets/application.self-2b00c68320848afe54cf9919a7a76ed257f93bdb6e12dc2160d07a8b1fe5e9f4.js?body=1" for 127.0.0.1 at 2015-05-12 20:55:25 -0430
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:55:26 -0430
+Processing by PeopleController#index as HTML
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people"
+  Rendered people/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/new" for 127.0.0.1 at 2015-05-12 20:55:28 -0430
+Processing by PeopleController#new as HTML
+  Rendered people/_form.html.erb (19.0ms)
+  Rendered people/new.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 93ms (Views: 92.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:55:30 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (0.5ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/people/2/edit" for 127.0.0.1 at 2015-05-12 20:55:30 -0430
+Processing by PeopleController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPerson Load (0.4ms)[0m  SELECT  "people".* FROM "people" WHERE "people"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered people/_form.html.erb (27.6ms)
+  Rendered people/edit.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 104ms (Views: 100.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/people" for 127.0.0.1 at 2015-05-12 20:55:32 -0430
+Processing by PeopleController#index as HTML
+  [1m[36mPerson Load (1.7ms)[0m  [1mSELECT "people".* FROM "people"[0m
+  Rendered people/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 91ms (Views: 88.2ms | ActiveRecord: 1.7ms)

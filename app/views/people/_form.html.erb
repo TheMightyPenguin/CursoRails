@@ -1,0 +1,7 @@
+<%= simple_form_for @person do |f| %>
+  <%= f.input :nombre, label: "Nombre:", placeholder: 'Ingresa un nombre' %>
+  <%= f.input :apellido, label: "Apellido:", placeholder: 'Ingresa un Apellido' %>
+  <%= f.input :ci, label: "Cedula:", placeholder: 'Ingresa un numero de cedula' %>
+  <%= f.button :submit, value: @m %>
+  <%= link_to "Regresar", people_path %>
+<% end %>

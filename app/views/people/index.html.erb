@@ -14,8 +14,11 @@
         <td><%= p.full_name %></td>
         <td>
           <%= link_to "Ver", person_path(p) %>
+          <%= link_to "Editar", edit_person_path(p) %>
         </td>
       </tr>
     <% end %>
   </tbody>
 </table>
+<br>
+<%= link_to "Insertar Persona", new_person_path %>
