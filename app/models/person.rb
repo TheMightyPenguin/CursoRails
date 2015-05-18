@@ -1,6 +1,7 @@
 class Person < ActiveRecord::Base
 
   has_many :addresses, dependent: :destroy
+  has_many :albums, dependent: :destroy
   has_one :profile, dependent: :destroy
   has_and_belongs_to_many :cars
   validates :nombre, :apellido, :ci, presence: {message: "No puede estar en blanco"}

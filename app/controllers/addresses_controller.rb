@@ -7,7 +7,4 @@ class AddressesController < ApplicationController
       redirect_to person_path(params[:person_id])
     end
   end
-  def new_person_address
-      Person.addresses.build(params[:id])
-  end
 end

@@ -39,5 +39,33 @@
     <% end %>
   </tbody>
 </table>
+
+<h3>Imagenes en el Album de Fotos</h3>
+
+<h3>Direcciones</h3>
+
+<%= flash[:notice] %>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Nombre de Foto</th>
+      <th>Descripción</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @person.albums.each do |a| %>
+      <tr>
+        <td><%= a.photo_name %></td>
+        <td><%= a.description %></td>
+        <td>
+          <%= link_to "Ver", person_path(a) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
 </br>
 <%= link_to "Regresar", people_path %>
