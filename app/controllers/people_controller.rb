@@ -13,6 +13,10 @@ class PeopleController < ApplicationController
   def new
     @person = Person.new
     @m = "crear persona"
+    @person.addresses.build
+    #5.times do
+      #@person.addresses.build
+    #end
   end
 
   def create
@@ -40,9 +44,20 @@ class PeopleController < ApplicationController
       render 'edit'
     end
   end
+  #Con este metodo podemos agregar varios carros a un objeto.
+  def asociar_car
+    @person = Person.find(params[:id])
+  end
+
+  def destroy
+    @person = Person.find(params[:id])
+    if @person.destroy
+      redirect_to people_path, notice: "#{@person.nombre} Borrada Exitosamente"
+    end
+  end
 
   private
   def permit_params
-    params.require(:person).permit(:nombre, :apellido, :ci)
+    params.require(:person).permit(:nombre, :apellido, :ci, addresses_attributes: [:id,:line1, :line2, :state])
   end
 end

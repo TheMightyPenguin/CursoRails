@@ -11,6 +11,10 @@ class Person < ActiveRecord::Base
 
   validate :check_ci, unless: "ci.nil?"
 
+  #Acepta como un Mass-Assignament
+  accepts_nested_attributes_for :addresses
+  accepts_nested_attributes_for :cars
+
   before_save :normalize
 
   def full_name

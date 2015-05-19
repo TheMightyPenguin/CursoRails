@@ -34,6 +34,7 @@
         <td><%= address.state %></td>
         <td>
           <%= link_to "Eliminar", person_address_path(@person, address), method: :delete, data: { confirm: "Estas seguro?" } %>
+          <%= link_to "Editar", edit_person_address_path(@person, address) %>
         </td>
       </tr>
     <% end %>
@@ -41,10 +42,6 @@
 </table>
 
 <h3>Imagenes en el Album de Fotos</h3>
-
-<h3>Direcciones</h3>
-
-<%= flash[:notice] %>
 
 <table border="1">
   <thead>
@@ -66,6 +63,9 @@
     <% end %>
   </tbody>
 </table>
-
+<br>
+<%= link_to "Asociar carro", asociar_car_person_path(@person) %>
+<br>
+<%= link_to "Agregar Direccion", new_person_address_path(@person) %>
 </br>
 <%= link_to "Regresar", people_path %>

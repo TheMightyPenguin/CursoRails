@@ -1,0 +1,6 @@
+<h1>Asociar Carros a: <%= @person.full_name %></h1>
+
+<%= simple_form_for @person do |f| %>
+	<%= f.association :cars, as: :check_boxes, label_method: :car_name %>
+	<%= f.submit %>
+<% end %>

@@ -1,4 +1,7 @@
-class Car < ActiveRecord::Base
-  
+class Car < ActiveRecord::Base  
   has_and_belongs_to_many :people
+
+  def car_name
+  	[brand, plate].join('-')
+  end
 end
