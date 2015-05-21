@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   	#Dado un people en especifico, puede tener people 10/asociar/car
   	member do
   		get :asociar_car
+      get :add_profile
+      post :create_profile
   	end
     resources :addresses
     resources :albums

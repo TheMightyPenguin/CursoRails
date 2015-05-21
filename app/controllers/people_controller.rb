@@ -1,12 +1,13 @@
 class PeopleController < ApplicationController
 
+  before_action :load_person, except: [:index, :new, :create]
+
   def index
     @people = Person.all
   end
 
   # Select
   def show
-    @person = Person.find(params[:id])
   end
 
   #Insert
@@ -31,12 +32,10 @@ class PeopleController < ApplicationController
 
   #Update
   def edit
-    @person = Person.find(params[:id])
     @m = "editar-persona"
   end
 
   def update
-    @person = Person.find(params[:id])
 
     if @person.update(permit_params)
       redirect_to people_path, notice: "#{@person.nombre} Editada Exitosamente"
@@ -46,18 +45,37 @@ class PeopleController < ApplicationController
   end
   #Con este metodo podemos agregar varios carros a un objeto.
   def asociar_car
-    @person = Person.find(params[:id])
+  end
+
+  def add_profile
+
+    render 'formulario_profile'
+  end
+
+  def create_profile
+    #Metodo para construir cuando es de 1..1
+    @person.build_profile(permit_params_profile)
+    if @person.profile.save 
+      redirect_to person_path(@person)
+      else  
+      render 'formulario_profile'
+    end
   end
 
   def destroy
-    @person = Person.find(params[:id])
     if @person.destroy
       redirect_to people_path, notice: "#{@person.nombre} Borrada Exitosamente"
     end
   end
 
   private
+  def load_person
+    @person = Person.find(params[:id])
+  end
   def permit_params
-    params.require(:person).permit(:nombre, :apellido, :ci, addresses_attributes: [:id,:line1, :line2, :state])
+    params.require(:person).permit(:nombre, :apellido, :ci, addresses_attributes: [:id,:line1, :line2, :state], car_ids:[])
+  end
+  def permit_params_profile
+    params[:person].require(:profile).permit(:twitter_url, :github_url)
   end
 end

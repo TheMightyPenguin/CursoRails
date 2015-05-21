@@ -41,6 +41,47 @@
   </tbody>
 </table>
 
+<h3>Carros Asociados</h3>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Color</th>
+      <th>Brand</th>
+      <th>Plate</th>
+    </tr>
+  </thead>
+  <% @person.cars.each do |c| %>
+<tbody>
+  <tr>
+    <td><%= c.color %></td>
+    <td><%= c.brand %></td>
+    <td><%= c.plate %></td>
+  </tr>
+  <% end %>
+</tbody>
+</table>
+
+
+<% unless @person.profile.nil? %>
+<h3>Profiles</h3>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Twitter</th>
+      <th>Github</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%= @person.profile.twitter_url %></td>
+      <td><%= @person.profile.github_url %></td>
+    </tr>
+  </tbody>
+</table>
+<% end %>
+
+
 <h3>Imagenes en el Album de Fotos</h3>
 
 <table border="1">
@@ -63,6 +104,8 @@
     <% end %>
   </tbody>
 </table>
+<br>
+<%= show_profile(@person) %>
 <br>
 <%= link_to "Asociar carro", asociar_car_person_path(@person) %>
 <br>

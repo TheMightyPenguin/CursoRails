@@ -1,0 +1,9 @@
+<h1>Agregar Profiles: <%= @person.full_name %></h1>
+
+<%= simple_form_for @person, url: create_profile_person_path(@person), method: :post do |f| %>
+	<%= f.simple_fields_for :profile do |m| %>
+	<%= m.input :twitter_url %>
+	<%= m.input :github_url %>
+	<% end %>
+	<%= f.submit "Crear Profile" %>
+<% end %>
